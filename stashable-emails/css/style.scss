@@ -1,0 +1,358 @@
+//COLOR VARIABLES
+$black: #333333;
+$blue: #007aff;
+$cyan: #00c7ff;
+$gray-lt: #f2f2f2;
+$gray-md: #dddddd;
+$gray-dk: #aaaaaa;
+$navy-md: #002043;
+$navy-dk: #002060;
+$white: #ffffff;
+
+//GENERAL ELEMENT STYLES
+* {
+  color: $black;
+  font-family: Helvetica, Arial, sans-serif, 'Open Sans';
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  display: block;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: $gray-lt;
+  border: 0;
+  border-collapse: collapse;
+  height: 3px !important;
+  margin: 0;
+  max-height: 3px;
+  max-width: 100%;
+  min-width: 100%;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+}
+
+img {
+  border: 0;
+  border-collapse: collapse;
+  display: block;
+  height: auto;
+  outline: 0;
+}
+
+li {
+  padding-right: 24px;
+
+  & + li {
+      padding-top: 8px;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: inherit !important;
+    font-size: inherit !important;
+    text-decoration: underline;
+  }
+
+  br {
+    font-size: 1px !important;
+    line-height: inherit !important;
+  }
+}
+
+table {
+  border: 0;
+  border-collapse: collapse;
+  outline: 0;
+}
+
+td {
+  border: 0;
+  border-collapse: collapse;
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+//THE BACKGROUND AREA
+.bdy-table {
+  background-color: $navy-dk;
+  background-image: url('http://stashable-email-assets.s3.amazonaws.com/email-tile@2x.png');
+  background-size: 400px;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+
+  .bdy-td {
+    margin: 0;
+    padding: 40px 0;
+  }
+}
+
+//A WRAPPER FOR CONTENT THAT DETERMINES THE WIDTH OF 600PX
+.cont-wrp {
+  background-color: $white;
+  margin: 0;
+  max-width: 600px;
+  min-width: 600px;
+  padding: 0;
+  width: 600px;
+}
+
+//BUTTONS AND CALLS-TO-ACTION
+.cta {
+  border-radius: 4px;
+  height: 46px;
+  max-height: 46px;
+  max-width: 200px;
+  min-height: 46px;
+  min-width: 200px;
+  text-align: center;
+  width: 200px;
+
+  a {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .03em;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &.cta-cyan {
+    background-color: $cyan;
+
+    a {
+      color: $white !important;
+      text-align: center;
+    }
+  }
+
+  &.cta-gray {
+    background-color: $gray-lt;
+
+    a {
+      color: $cyan !important;
+      text-align: center;
+    }
+  }
+}
+
+//FEATURES: 4 CHECKMARKS WITH SMALL SNIPPETS OF TEXT; SNAPS TO 2 ROWS ON MOBILE
+.feats-table {
+  width: 100%;
+
+  .feats-td {
+    background-color: #243892;
+  }
+
+  .feats {
+    width: 48%;
+
+    td {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .feats-description {
+      color: $gray-md;
+      font-size: 13px !important;
+    }
+
+    .feats-img {
+      height: 24px;
+      margin: auto;
+      padding-bottom: 8px;
+      width: 24px;
+    }
+
+    .feats-lft,
+    .feats-rt {
+      padding: 48px 0;
+    }
+  }
+}
+
+//FOOTER STYLES
+.ftr {
+  background-color: $navy-md;
+
+  a {
+    color: $gray-dk !important;
+    font-size: 13px !important;
+    text-decoration: underline;
+  }
+
+  p {
+    color: $gray-dk;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+
+  .ftr-col-lft {
+    width: 56%;
+  }
+
+  .ftr-col-rt {
+    width: 144px;
+  }
+
+  .ftr-links {
+    padding: 0 16px 0 0;
+  }
+
+  .ftr-mark {
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    width: auto;
+  }
+
+  .ftr-scl-td {
+    padding: 0 0 0 16px;
+  }
+}
+
+//ICONS THAT ARE 32PX IN SIZE
+.icon-32 {
+  height: 32px;
+  width: 32px;
+}
+
+// MASTHEAD RULES
+.mst {
+  padding: 32px 32px 48px;
+}
+
+.mst-img {
+  max-width: 600px;
+  min-width: 600px;
+  width: 600px;
+}
+
+// MASTHEAD LOGO SIZES
+.mst-logo {
+  height: 20px;
+  width: auto;
+}
+
+// ADDS PADDING TO ELEMENTS
+.pad-in {
+  padding-left: 32px;
+  padding-right: 32px;
+
+  // DIFFERENT PADDING RULES FOR LISTS
+  ol,
+  ul {
+    padding: 0 16px;
+  }
+}
+
+// PADDING SINGLE-COLUMN SYSTEM FOOTER
+.ftr-sys-pdg {
+  padding-right: 224px;
+}
+
+//SPACERS THAT ADD VERTICAL HEIGHT
+.spc-4,
+.spc-8,
+.spc-16,
+.spc-24,
+.spc-24-static,
+.spc-32,
+.spc-48 {
+  border-collapse: collapse;
+  font-size: 1px;
+  line-height: 1;
+  mso-line-height-rule: exactly;
+}
+
+.spc-4 {
+  height: 4px;
+  max-height: 4px;
+}
+
+.spc-8 {
+  height: 8px;
+}
+
+.spc-16 {
+  height: 16px;
+}
+
+.spc-24 {
+  height: 24px;
+}
+
+.spc-24-static {
+  height: 24px;
+}
+
+.spc-32 {
+  height: 32px;
+}
+
+.spc-48 {
+  height: 48px;
+}
+
+//COLUMNS THAT CHANGE TO SINGLE-COLUMN IN MOBILE
+.cols {
+  width: 100%;
+
+  .col-2 {
+    max-width: 49%;
+    min-width: 49%;
+    width: 48%;
+  }
+
+  .col-3 {
+    max-width: 32.5%;
+    min-width: 32.5%;
+    width: 31%;
+  }
+}

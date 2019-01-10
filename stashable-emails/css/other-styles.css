@@ -1,0 +1,156 @@
+[style*="Open Sans"] {
+  font-family: 'Open Sans', Arial, sans-serif !important;
+}
+
+/* Force IE "snap mode" to render widths normally. */
+@-ms-viewport{width:device-width;}
+
+/* Force IE to smoothly render resized images. */
+img{-ms-interpolation-mode:bicubic;}
+
+/* Remove spacing between tables in Outlook Desktop. */
+table{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+
+/* Force Outlook.com to display emails at full width. */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+
+/* Force mobile devices to inherit declared link styles. */
+a[href^="tel"], a[href^="sms"]{color:inherit; cursor:default; text-decoration:none;}
+
+/* Prevent Windows- and Webkit-based platforms from changing declared text sizes. */
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  -webkit-text-size-adjust:100%;
+}
+
+/* Force Outlook.com to display line heights normally. */
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font{line-height:100%;}
+
+/* Force iOS devices to heed link styles set in CSS. */
+a[x-apple-data-detectors]{color:inherit !important; text-decoration:none !important; font-size:inherit !important; font-family:inherit !important; font-weight:inherit !important; line-height:inherit !important;}
+
+/* STYLES FOR LARGE AND MEDIUM MOBILE DEVICES */
+@media screen and (max-width: 599px) {
+  h1 { font-size: 24px !important; }
+  h2 { font-size: 18px !important; }
+  h3 { font-size: 16px !important; }
+
+  .bdy-td {
+    padding: 0 !important;
+  }
+
+  .col-2,
+  .col-3 {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .cont-wrp {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .feats,
+  .feats-table {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .feats-lft,
+  .feats-rt {
+    padding: 32px 0 !important;
+    width: 50% !important;
+  }
+
+  .feats-td.pad-in {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .feats-top {
+    padding-bottom: 0 !important;
+  }
+
+  .ftr-col-lft {
+    width: 100% !important;
+  }
+
+  .ftr-col-rt {
+    float: left !important;
+    width: 144px !important;
+  }
+
+  .ftr-links {
+    padding-left: 0 !important;
+  }
+
+  .ftr-scl-td {
+    padding: 0 16px 0 0 !important;
+  }
+
+  .ftr-sys-pdg {
+    padding-right: 24px !important;
+  }
+
+  .mst-img {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .pad-in {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .pad-in ol,
+  .pad-in ul {
+    padding: 0 16px !important;
+  }
+
+  .mst {
+    padding: 24px 24px 32px !important;
+  }
+
+  .mst-logo {
+    height: 20px !important;
+  }
+
+  .pad-24-mbl {
+    padding-top: 24px !important;
+  }
+
+  .spc-24 {
+    height: 16px !important;
+    max-height: 16px !important;
+  }
+
+  .spc-32 {
+    height: 24px !important;
+    max-height: 24px !important;
+  }
+
+  .spc-48 {
+    height: 32px !important;
+    max-height: 32px !important;
+  }
+}
+
+/* STYLES FOR SMALLEST MOBILE DEVICES */
+@media screen and (max-width: 359px) {
+  .mst {
+    padding: 24px 16px 32px !important;
+  }
+
+  .pad-in {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}

@@ -1,0 +1,250 @@
+* {
+  color: #333333;
+  font-family: Helvetica, Arial, sans-serif, 'Open Sans';
+  font-size: 17px;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+h1, h2, h3, h4, h5 {
+  display: block;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 13px;
+  text-transform: uppercase; }
+
+hr {
+  background-color: #f2f2f2;
+  border: 0;
+  border-collapse: collapse;
+  height: 3px !important;
+  margin: 0;
+  max-height: 3px;
+  max-width: 100%;
+  min-width: 100%;
+  outline: 0;
+  padding: 0;
+  width: 100%; }
+
+img {
+  border: 0;
+  border-collapse: collapse;
+  display: block;
+  height: auto;
+  outline: 0; }
+
+li {
+  padding-right: 24px; }
+  li + li {
+    padding-top: 8px; }
+
+p {
+  margin: 0;
+  padding: 0; }
+  p a {
+    color: inherit !important;
+    font-size: inherit !important;
+    text-decoration: underline; }
+  p br {
+    font-size: 1px !important;
+    line-height: inherit !important; }
+
+table {
+  border: 0;
+  border-collapse: collapse;
+  outline: 0; }
+
+td {
+  border: 0;
+  border-collapse: collapse;
+  outline: 0; }
+
+ul {
+  margin: 0; }
+
+.bdy-table {
+  background-color: #002060;
+  background-image: url("http://stashable-email-assets.s3.amazonaws.com/email-tile@2x.png");
+  background-size: 400px;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%; }
+  .bdy-table .bdy-td {
+    margin: 0;
+    padding: 40px 0; }
+
+.cont-wrp {
+  background-color: #ffffff;
+  margin: 0;
+  max-width: 600px;
+  min-width: 600px;
+  padding: 0;
+  width: 600px; }
+
+.cta {
+  border-radius: 4px;
+  height: 46px;
+  max-height: 46px;
+  max-width: 200px;
+  min-height: 46px;
+  min-width: 200px;
+  text-align: center;
+  width: 200px; }
+  .cta a {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .03em;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%; }
+  .cta.cta-cyan {
+    background-color: #00c7ff; }
+    .cta.cta-cyan a {
+      color: #ffffff !important;
+      text-align: center; }
+  .cta.cta-gray {
+    background-color: #f2f2f2; }
+    .cta.cta-gray a {
+      color: #00c7ff !important;
+      text-align: center; }
+
+.feats-table {
+  width: 100%; }
+  .feats-table .feats-td {
+    background-color: #243892; }
+  .feats-table .feats {
+    width: 48%; }
+    .feats-table .feats td {
+      text-align: center;
+      text-transform: uppercase; }
+    .feats-table .feats .feats-description {
+      color: #dddddd;
+      font-size: 13px !important; }
+    .feats-table .feats .feats-img {
+      height: 24px;
+      margin: auto;
+      padding-bottom: 8px;
+      width: 24px; }
+    .feats-table .feats .feats-lft,
+    .feats-table .feats .feats-rt {
+      padding: 48px 0; }
+
+.ftr {
+  background-color: #002043; }
+  .ftr a {
+    color: #aaaaaa !important;
+    font-size: 13px !important;
+    text-decoration: underline; }
+  .ftr p {
+    color: #aaaaaa;
+    font-size: 13px !important;
+    line-height: 1.4 !important; }
+  .ftr .ftr-col-lft {
+    width: 56%; }
+  .ftr .ftr-col-rt {
+    width: 144px; }
+  .ftr .ftr-links {
+    padding: 0 16px 0 0; }
+  .ftr .ftr-mark {
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    width: auto; }
+  .ftr .ftr-scl-td {
+    padding: 0 0 0 16px; }
+
+.icon-32 {
+  height: 32px;
+  width: 32px; }
+
+.mst {
+  padding: 32px 32px 48px; }
+
+.mst-img {
+  max-width: 600px;
+  min-width: 600px;
+  width: 600px; }
+
+.mst-logo {
+  height: 20px;
+  width: auto; }
+
+.pad-in {
+  padding-left: 32px;
+  padding-right: 32px; }
+  .pad-in ol,
+  .pad-in ul {
+    padding: 0 16px; }
+
+.ftr-sys-pdg {
+  padding-right: 224px; }
+
+.spc-4,
+.spc-8,
+.spc-16,
+.spc-24,
+.spc-24-static,
+.spc-32,
+.spc-48 {
+  border-collapse: collapse;
+  font-size: 1px;
+  line-height: 1;
+  mso-line-height-rule: exactly; }
+
+.spc-4 {
+  height: 4px;
+  max-height: 4px; }
+
+.spc-8 {
+  height: 8px; }
+
+.spc-16 {
+  height: 16px; }
+
+.spc-24 {
+  height: 24px; }
+
+.spc-24-static {
+  height: 24px; }
+
+.spc-32 {
+  height: 32px; }
+
+.spc-48 {
+  height: 48px; }
+
+.cols {
+  width: 100%; }
+  .cols .col-2 {
+    max-width: 49%;
+    min-width: 49%;
+    width: 48%; }
+  .cols .col-3 {
+    max-width: 32.5%;
+    min-width: 32.5%;
+    width: 31%; }
+
+/*# sourceMappingURL=style.css.map */
